@@ -10,7 +10,7 @@ This repository houses the data for the R workshop and book: Introduction to R f
   
 Where `YOU` is replaced with something specific to your computer. The full file path does not need to be the same as above, but it is recommended to at least maintain the `/R-Book/Data` portion. Make sure you place this somewhere easy to find on your computer.
 
-## Data Descriptions
+## Data Sets
 
 The contents of each data file is described below, listed in alphabetical order.
 
@@ -101,7 +101,7 @@ Contains the results of an experiment where the investigator manipulated the den
 
 ---
 
-####`growth.csv`
+#### `growth.csv`
 
 **Description**
 
@@ -118,7 +118,7 @@ Contains 100 samples taken randomly from a fish population. The length (total le
 
 ---
 
-####`ponds.csv`
+#### `ponds.csv`
 
 **Description**
 
@@ -140,7 +140,7 @@ _There is an error in this data set you should fix using a spreadsheet program b
 
 ---
 
-####`sockeye.csv`
+#### `sockeye.csv`
 
 **Description**
 
@@ -161,7 +161,7 @@ Contains records of various biological variables measured for both hatchery and 
 
 ---
 
-####`streams.csv`
+#### `streams.csv`
 
 **Description**
 
