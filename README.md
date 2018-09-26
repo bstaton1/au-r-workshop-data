@@ -146,7 +146,7 @@ _There is an error in this data set you should fix using a spreadsheet program b
 
 Contains records of various biological variables measured for both hatchery and wild fish in paired years from the Redfish Lake sockeye salmon (_Oncorhynchus nerka_) in Idaho. 
 
-**Source**: Kline and Flag([2004](https://bstaton1.github.io/au-r-workshop/ch2.html#ref-sockeye-cite))
+**Source**: Kline and Flag ([2004](https://bstaton1.github.io/au-r-workshop/ch2.html#ref-sockeye-cite))
 
 **Variables**:
 
