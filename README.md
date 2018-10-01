@@ -181,4 +181,85 @@ Contains information on 20 streams in the Southeastern United States.
 
 ### Chapter 6 Data
 
-Henry will put stuff here using similar formatting as Ben. He will try to include all references in some format. 
+There is a separate folder in this directory devoted to [Chapter 6](https://bstaton1.github.io/au-r-workshop/ch6.html). Some of these files are shapefiles (`.shp`), and are stored in folders that contain other associated files. This file structure is standard for geospatial data.
+
+#### `bear.csv`
+
+**Description**
+
+Contains (among many other things) the dates, locations, and IDs of brown bears (_Ursus arctos_) tracked via telemetry around Slovenia. 
+
+**Source**: 
+
+Kaczensky, P., F. Knauer, M. Jonozovic, and M. Blazic. 1999. "Slovenian Brown Bear 1993-1999 Telemetry Data Set." https://www.movebank.org/panel_embedded_movebank_webapp?destination=panel_embedded_movebank_webapp. 
+
+**Variables**:
+
+*  Too many to list here. Take a look at the file, the important variables are fairly self-explanatory. 
+
+**Found in Chapter(s)**: 6
+
+---
+
+#### `caves`
+
+**Description**
+
+Contains the locations of ecologically important caves in Slovenia. 
+
+**Source**: 
+
+Republic of Slovenia, Environmental Agency of the. 2018. "Ecologically Important Areas (Caves)." http://gis.arso.gov.si/geoserver/ows?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=arso:EPO_JAME&PROPERTYNAME=SHAPE,ID_STEV,IME&OUTPUTFORMAT=SHAPE-ZIP&format_options=charset:UTF-8. 
+
+**Variables**:
+
+*  latitude and longitude (points) of the caves in Slovenia.
+
+**Found in Chapter(s)**: 6
+
+---
+
+#### `railways`
+
+**Description**
+
+Contains the track of railways in Slovenia.
+
+**Source**: 
+
+MapCruzin. 2018. "Slovenia Railways [Computer File]." http://www.mapcruzin.com/download-shapefile/slovenia-railways-shape.zip.
+
+**Variables**:
+
+*  latitude and longitude (polylines) of the railways in Slovenia.
+
+**Found in Chapter(s)**: 6
+
+---
+
+#### `SVN_adm`
+
+**Description**
+
+Contains three shapefiles, only two are used:
+
+*  `SVN_adm0.shp`: contains the political boundary of Slovenia
+*  `SVN_adm1.shp`: contains the political boundaries of the states of Slovenia.
+
+**Source**:
+
+Boundaries, Global Administrative. 2018. "Slovenia Geopackage [Computer File]." https://biogeo.ucdavis.edu/data/gadm3.6/gpkg/gadm36_SVN_gpkg.zip
+
+**Variables:**
+
+*  the latitude and longitude (polygons) of the political boundaries.
+
+**Found in Chapters(s)**: 6
+
+#### `points_to_line.R`
+
+A user-defined function that takes a set of points and turns them into polylines. Optionally, the data can be passed arguments to sort the points in a track or to group them as separate lines via an ID variable. 
+
+**Source**: 
+
+Walker, Kyle. 2015. "Convert Xy Coordinates to Lines in R." Rpubs. https://rpubs.com/walkerke/points_to_line.
